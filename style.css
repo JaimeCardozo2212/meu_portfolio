@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Garante que toda a página principal tenha o fundo escuro */
+.main {
+    background-color: #0d1117 !important;
+}
+
+/* Estilos de títulos e markdown */
+h1, h2, h3, h4, h5, h6 {
+    color: #58a6ff; /* Cor de destaque azul para títulos */
+}
+.stMarkdown h1 {
+    border-bottom: 2px solid #30363d;
+    padding-bottom: 10px;
+    color: #056dff;
+}
+.stMarkdown h2 {
+    color: #0077ff;
+    margin-top: 40px; /* Adiciona espaçamento vertical antes dos títulos de seção */
+}
+.stMarkdown h3 {
+    color: #8a8b8b;
+}
+.stMarkdown a {
+    color: #55baf5;
+    text-decoration: none;
+}
+.stMarkdown a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de contêineres e formulário de contato */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --- ESTILOS MODERNOS PARA A BARRA LATERAL (VERSÃO NATIVA MPA) --- */
+
+/* Fundo da sidebar com gradiente sutil e borda */
+[data-testid="stSidebar"] {
+    background-image: linear-gradient(180deg, #1a1e24, #121519) !important;
+    border-right: 1px solid #30363d !important;
+}
+
+/* Título da sidebar */
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] .stHeading {
+    color: #58a6ff;
+    border-bottom: 2px solid #30363d;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* A MUDANÇA FINAL ESTÁ AQUI: Usando o seletor correto para links automáticos */
+/* Estilo para os links de navegação */
+[data-testid="stSidebarNavLink"] {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    color: #c9d1d9 !important;
+    background-color: transparent !important;
+    width: 95% !important;
+    margin: 0 auto 8px auto !important;
+    transition: all 0.3s ease-in-out !important;
+    border-left: 4px solid transparent !important;
+    text-decoration: none !important;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+[data-testid="stSidebarNavLink"]:hover {
+    color: #ffffff !important;
+    background-color: #21262d !important;
+    border-left: 4px solid #58a6ff !important;
+    transform: translateX(2px);
+}
+
+/* Estilo para a página ATIVA */
+[data-testid="stSidebarNavLink"][aria-selected="true"] {
+    color: #ffffff !important;
+    background-color: #21262d !important;
+    border-left: 4px solid #007bff !important;
+    font-weight: 600 !important;
+}
+
+/* Botão de recolher/expandir */
+[data-testid="stSidebarCollapseButton"] {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* --- ESTILOS PARA ÍCONES DE REDES SOCIAIS (CORRIGIDO) --- */
+.social-icons {
+    display: flex; /* 'flex' é necessário para centralizar e usar 'gap' */
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* Aumentei um pouco o espaço entre os ícones */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #c9d1d9; /* Cor padrão dos ícones */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #58a6ff; /* Cor de destaque azul ao passar o mouse */
+    transform: scale(1.2); /* Aumenta o ícone levemente */
+}
+
+.social-icons svg {
+    width: 32px;  /* Tamanho do ícone */
+    height: 32px;
+}
+
+/* --- SEUS OUTROS ESTILOS --- */
+/* (o restante do seu CSS pode continuar aqui) */
+/* Remove qualquer sombreamento padrão que possa existir */
+.css-z0zvm9 {
+    box-shadow: none !important;
+}
+
+/* Remove a sombra do próprio Streamlit que aparece no menu quando aberto */
+.st-emotion-cache-12oz5g7 {
+    box-shadow: none !important;
+}
+
+
+/* --- AJUSTES PARA RESPONSIVIDADE EM TELAS MENORES --- */
+@media (max-width: 768px) {
+    /* Faz os campos do formulário ocuparem mais espaço */
+    input, textarea, button {
+        width: 95%;
+    }
+
+    /* Ajusta a largura do container da seção inicial */
+    .container-inicio {
+        width: 90%;
+    }
+
+    /* Ajusta o layout das colunas para ficarem uma sobre a outra */
+    .st-emotion-cache-1y4p8pa {
+        flex-direction: column;
+    }
+}
+/* icones de contato */
+/* --- ESTILOS PARA ÍCONES DE REDES SOCIAIS --- */
+
+.social-icons {
+    display: block;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px; /* Espaço entre os ícones */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    color: #737070; /* Cor padrão dos ícones */
+    transition: color 0.5s ease, transform 0.5s ease; /* Transição suave */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #082dff; /* Cor de destaque azul ao passar o mouse */
+    transform: scale(1.9); /* Aumenta o ícone levemente */
+}
+
+.social-icons svg {
+    width: 35px;  /* Tamanho do ícone */
+    height: 35px;
+}
