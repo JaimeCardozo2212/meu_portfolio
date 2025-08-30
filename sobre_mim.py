@@ -23,6 +23,6 @@ def sobre_mim():
 
         with right_column:
             # Você pode substituir este link por uma imagem sua
-            st.image("https://media.licdn.com/dms/image/v2/D4D03AQEX_pdKr_1VAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701186530760?e=1759363200&v=beta&t=9ChyTeMmgKnk15z-2kH4yCRI9tqQp-9oskBzQ3usifw", width=300)
+            st.image("https://media.licdn.com/dms/image/v2/D4D03AQFCnXsS5rxtDg/profile-displayphoto-scale_400_400/B4DZj7yZsYH4Ao-/0/1756570952510?e=1759363200&v=beta&t=XavipDcipHwPHKdWwFVYC4-ujN_pzg6OD6ndDmbEHjc", width=300)
 
         st.write("---")
