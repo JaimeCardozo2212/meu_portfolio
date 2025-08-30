@@ -11,7 +11,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Este Portfólio")
-            st.image("img\meu_portfolio.png", width=350)
+            st.image(r"img/meu_portfolio.png", width=350)
             st.markdown("**Tecnologias:** Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
@@ -28,7 +28,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Robo Criado para Secretaria da Saúde de Joinville")
-            st.image(r"img\robo_obitos.png", width=300)
+            st.image(r"img/robo_obitos.png", width=300)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Robo_Baixa_de_obitos_ses_.git)")
             
@@ -52,7 +52,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Controle de Ordem de Serviço")
-            st.image("img\painel_chamados.png", width=350)
+            st.image(r"img/painel_chamados.png", width=350)
             st.markdown("**Tecnologias:**Streamlit, Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/controle_de_chamados.git)")
             
@@ -74,7 +74,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Robo para extração de dados")
-            st.image(r"img\robo_api.png", width=300)
+            st.image(r"img/robo_api.png", width=300)
             st.markdown("**Tecnologias:** Streamlit, Pandas, Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Robo-extra-o-de-dados-ordem-de-servi-o.git)")
             
@@ -95,7 +95,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Bot para jogo (TIBIA)")
-            st.image(r"img\bot_runas_tibia.png", width=300)
+            st.image(r"img/bot_runas_tibia.png", width=300)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Bot_Fazer_Runa.git)")
             
@@ -116,7 +116,7 @@ def meus_projetos():
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Bot para Curar (TIBIA)")
-            st.image(r"img\bot_cura_tibia.png", width=300)
+            st.image(r"img/bot_cura_tibia.png", width=300)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Bot_Curar_Tibia.git)")
             
