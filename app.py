@@ -34,7 +34,7 @@ with st.container():
     with left_column:
         st.write(
             """
-            Um profissional apaixonado por **[PREENCHA SUA ÁREA DE ATUAÇÃO]** e pela criação de soluções inovadoras.
+            Um profissional apaixonado por **Tecnologia** e pela criação de soluções inovadoras.
             Este é o meu portfólio digital, onde você pode explorar meus projetos e a jornada de desenvolvimento por trás deles.
             """
         )

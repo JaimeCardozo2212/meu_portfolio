@@ -10,10 +10,14 @@ def sobre_mim():
         with left_column:
             st.write(
                 """
-                - Sou **[PREENCHA SUA PROFISSÃO OU TÍTULO]** com experiência em **[PREENCHA SUA HABILIDADE PRINCIPAL]**.
-                - Minha jornada em **[PREENCHA SUA ÁREA]** começou com **[PREENCHA SUA PAIXÃO OU MOTIVAÇÃO]**.
-                - Sou um entusiasta por **[PREENCHA TECNOLOGIAS OU HOBBIES]** e adoro solucionar problemas complexos de forma criativa.
-                - Quando não estou programando, você pode me encontrar **[PREENCHA SEUS HOBBIES]**.
+                Me chamo Jaime e sou um desenvolvedor **backend** com foco em automação Desde 2021,
+                cursando o ultimo semestre de Análise e Desenvolvimento de Sistemas. 
+                minha paixão é construir soluções que otimizam processos e resolvem problemas de forma eficiente. 
+                Sou especialista na criação de automações e robôs para extração de dados, 
+                além de bots para jogos. O que me move na área de tecnologia é a constante inovação, 
+                e meu diferencial é a busca contínua por novas tecnologias para aprimorar cada projeto. 
+                Estou empolgado para aplicar minhas habilidades em projetos 
+                que me desafiem e permitam continuar crescendo profissionalmente.
                 """
             )
 
