@@ -34,8 +34,8 @@ with st.container():
     with left_column:
         st.write(
             """
-            Um profissional apaixonado por **Tecnologia** e pela criação de soluções inovadoras.
-            Este é o meu portfólio digital, onde você pode explorar meus projetos e a jornada de desenvolvimento por trás deles.
+            Apaixonado por tecnologia e inovação, crio soluções que resolvem problemas reais. 
+            Explore meu portfólio e descubra os projetos que refletem minha jornada de desenvolvimento.
             """
         )
 

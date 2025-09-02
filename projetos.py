@@ -24,7 +24,24 @@ def meus_projetos():
             )
         st.write("---")
 
-        # --- Projeto 2 ---
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.markdown("### App consulta de unidade de saúde Secretaria da Saúde de Joinville")
+            st.image(r"img/consulta_ubsf.png", width=300)
+            st.markdown("**Tecnologias:** Python, Streamlit, selenium")
+            st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/consulta_mapa_ubsf_referencia.git)")
+            
+        with col2:
+            st.write("---")
+            st.write(
+                """
+                Este aplicativo foi desenvolvido para facilitar a consulta de unidades de saúde (UBSF) em Joinville. 
+                Ao digitar um endereço, o app informa a qual unidade de saúde e distrito ele pertence, 
+                além de fornecer dados de contato, como telefone, endereço e horário de funcionamento.
+                """
+            )
+        st.write("---")
+
         col1, col2 = st.columns([1, 2])
         with col1:
             st.markdown("### Robo Criado para Secretaria da Saúde de Joinville")

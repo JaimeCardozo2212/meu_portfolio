@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Fundo da sidebar com gradiente sutil e borda */
 [data-testid="stSidebar"] {
-    background-image: linear-gradient(180deg, #1a1e24, #121519) !important;
+    background-image: linear-gradient(180deg, #1a1e24, #000000) !important;
     border-right: 1px solid #30363d !important;
 }
 
