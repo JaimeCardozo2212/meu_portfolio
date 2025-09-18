@@ -40,6 +40,7 @@ def meus_projetos():
                 além de fornecer dados de contato, como telefone, endereço e horário de funcionamento.
                 """
             )
+            st.link_button(url="https://consultamapa.streamlit.app/",label="Link do App", type='primary', width='content')
         st.write("---")
 
         col1, col2 = st.columns([1, 2])
