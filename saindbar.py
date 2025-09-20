@@ -6,7 +6,7 @@ def minha_sidebar():
     <style>
     /* Variáveis para cores */
     :root {
-        --sidebar-bg: linear-gradient(180deg, #0d1117 0%, #161b22 100%);
+        --sidebar-bg: linear-gradient(180deg, #000000 0%, #020038 100%);
         --sidebar-border: #30363d;
         --sidebar-text: #c9d1d9;
         --sidebar-text-hover: #ffffff;
@@ -50,7 +50,7 @@ def minha_sidebar():
         border-radius: 8px !important;
         margin: 8px 0 !important;
         color: var(--sidebar-text) !important;
-        background-color: transparent !important;
+        background-color: #020038 !important;
         transition: all 0.3s ease !important;
         text-decoration: none !important;
         position: relative !important;
@@ -170,9 +170,9 @@ def minha_sidebar():
     """, unsafe_allow_html=True)
     
     # Seção de informações de contato
+
     st.sidebar.markdown("""
     <div class="sidebar-contact">
-        <p><i class="fas fa-envelope"></i> jaimecardozo.junior@gmail.com</p>
         <p><i class="fas fa-map-marker-alt"></i> Joinville - SC, Brasil</p>
     </div>
     """, unsafe_allow_html=True)
@@ -186,8 +186,9 @@ def minha_sidebar():
     """, unsafe_allow_html=True)
     
     # Botão de download de currículo
-    st.sidebar.markdown("---")
+    # st.sidebar.markdown("---")
     # Link para o currículo
+    st.sidebar.markdown("[jaimecardozo.junior@gmail.com](mailto:jaimecardozo.junior@gmail.com)")
     st.sidebar.markdown(
         """
         <div style="text-align: center;">
@@ -200,3 +201,4 @@ def minha_sidebar():
         """, 
         unsafe_allow_html=True
     )
+    

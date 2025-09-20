@@ -48,12 +48,16 @@ with st.container():
     
     left_column, right_column = st.columns([2, 1])
     with left_column:
+        st.image("https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png",width=35)
         st.write(
             """
-            Apaixonado por tecnologia e inovação, crio soluções que resolvem problemas reais. 
-            Explore meu portfólio e descubra os projetos que refletem minha jornada de desenvolvimento.
+                **Desenvolvedor backend Python**\n
+                **Conhecimetos framework** : *Django, Streamlit*\n
+                **Demais tecnologias** : *Selenium , Requests , Scrapy , Pandas , PyAutoGUI , LangChain , PyODBC*
+
             """
         )
+
 
 sobre_mim()
 

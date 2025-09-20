@@ -8,7 +8,7 @@
   --bg-tertiary: #21262d;
   --accent-primary: #58a6ff;
   --accent-secondary: #1f6feb;
-  --text-primary: #515151;
+  --text-primary: #5786dd;
   --text-secondary: #474747;
   --text-muted: #8b949e;
   --success: #3fb950;
@@ -259,8 +259,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-icons a:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
-  color: white;
+  box-shadow: 0 5px 15px rgba(34, 95, 226, 0.3);
+  color: rgb(255, 255, 255);
 }
 
 .social-icons a:hover:before {
