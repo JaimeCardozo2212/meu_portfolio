@@ -192,11 +192,14 @@ def minha_sidebar():
     st.sidebar.markdown(
         """
         <div style="text-align: center;">
-            <a href="https://drive.google.com/uc?export=download&id=1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy"
-                <span class="sidebar-icon">📄</span>
-                <span>Baixar Currículo</span>
-            </a>
-        </div>
+    <a href="https://drive.google.com/uc?export=download&id=1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy"
+       download="Curriculum Jaime 2025.pdf"
+       rel="noopener noreferrer"
+       style="text-decoration: none">
+        <span class="sidebar-icon">📄</span>
+        <span>Baixar Currículo</span>
+    </a>
+</div>
         """, 
         unsafe_allow_html=True
     )
