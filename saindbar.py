@@ -192,8 +192,7 @@ def minha_sidebar():
     st.sidebar.markdown(
         """
         <div style="text-align: center;">
-            <a href="https://drive.google.com/file/d/1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy/view?usp=sharing" 
-               target="_blank" class="sidebar-link" style="display: inline-block; text-align: center;">
+            <a href="https://drive.google.com/uc?export=download&id=1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy"
                 <span class="sidebar-icon">📄</span>
                 <span>Baixar Currículo</span>
             </a>
