@@ -8,10 +8,10 @@ def meus_projetos():
         # st.write("---")
         
         # --- Projeto 1 ---
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Este Portfólio")
-            st.image(r"img/meu_portfolio.png", width=None)
+            st.image(r"img/meu_portfolio.png", use_container_width=True)
             st.markdown("**Tecnologias:** Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
@@ -29,10 +29,10 @@ def meus_projetos():
                 
         st.write("---")
 
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### App consulta de unidade de saúde Secretaria da Saúde de Joinville")
-            st.image(r"img/consulta_ubsf.png", width=None)
+            st.image(r"img/consulta_ubsf.png", use_container_width=True)
             st.markdown("**Tecnologias:** Python, Streamlit, selenium")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/consulta_mapa_ubsf_referencia.git)")
             st.write("Link :", "[App](https://consultamapa.streamlit.app/)")
@@ -49,10 +49,10 @@ def meus_projetos():
             
         st.write("---")
 
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Robo Criado para Secretaria da Saúde de Joinville")
-            st.image(r"img/robo_obitos.png", width=None)
+            st.image(r"img/robo_obitos.png", use_container_width=True)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Robo_Baixa_de_obitos_ses_.git)")
             
@@ -75,10 +75,10 @@ def meus_projetos():
                 )
         st.write("---")
 
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Controle de Ordem de Serviço")
-            st.image(r"img/painel_chamados.png", width=None)
+            st.image(r"img/painel_chamados.png", use_container_width=True)
             st.markdown("**Tecnologias:**Streamlit, Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/controle_de_chamados.git)")
             
@@ -99,10 +99,10 @@ def meus_projetos():
         st.write("---")
         
         # --- Projeto 4 ---
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Robo para extração de dados")
-            st.image(r"img/robo_api.png", width=None)
+            st.image(r"img/robo_api.png", use_container_width=True)
             st.markdown("**Tecnologias:** Streamlit, Pandas, Python, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Robo-extra-o-de-dados-ordem-de-servi-o.git)")
             
@@ -122,10 +122,10 @@ def meus_projetos():
         st.write("---")
 
         # --- Projeto 5 ---
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Bot para jogo (TIBIA)")
-            st.image(r"img/bot_runas_tibia.png", width=None)
+            st.image(r"img/bot_runas_tibia.png", use_container_width=True)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Bot_Fazer_Runa.git)")
             
@@ -145,10 +145,10 @@ def meus_projetos():
         st.write("---")
 
         # --- Projeto 5 ---
-        col1, col2 = st.columns([1, 2])
+        col1, col2 = st.columns([2, 1])
         with col1:
             st.markdown("### Bot para Curar (TIBIA)")
-            st.image(r"img/bot_cura_tibia.png", width=None)
+            st.image(r"img/bot_cura_tibia.png", use_container_width=True)
             st.markdown("**Tecnologias:** Python, TKinter, opencv, PIL")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/Bot_Curar_Tibia.git)")
             
