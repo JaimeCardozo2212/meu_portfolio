@@ -24,6 +24,6 @@ def sobre_mim():
 
         with right_column:
             # Você pode substituir este link por uma imagem sua
-            st.image("https://media.licdn.com/dms/image/v2/D4D03AQFCnXsS5rxtDg/profile-displayphoto-crop_800_800/B4DZj7yZsYH4AQ-/0/1756570952403?e=1764806400&v=beta&t=v2L3LDVWbBenK0isi9vmvjqdN7ye3gkQkKfDscZm6qw", width=300)
+            st.image((r"img/minha_foto.png", width=300)
 
         st.write("---")
