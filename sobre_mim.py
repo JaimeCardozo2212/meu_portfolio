@@ -24,6 +24,6 @@ def sobre_mim():
 
         with right_column:
             # Você pode substituir este link por uma imagem sua
-            st.image((r"img/minha_foto.png", width=300)
+            st.image("img/minha_foto.png", width=300)
 
         st.write("---")
