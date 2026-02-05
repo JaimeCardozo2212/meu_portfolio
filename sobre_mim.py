@@ -11,7 +11,7 @@ def sobre_mim():
             st.write(
                 """
                     Desenvolvedor **Back-End Python** com experiência em projetos **full-stack**.\n 
-                    Especializo-me na criação de soluções robustas e automatizadas,\n 
+                    Especializo-me na criação de soluções robustas e automatizadas (RPA),\n 
                     incluindo sistemas de bots para jogos,\n 
                     ferramentas de extração de dados (web scraping) e desenvolvimento web.\n
                     Minha transição de carreira para a tecnologia, iniciada em 2021,\n 
