@@ -188,19 +188,19 @@ def minha_sidebar():
     # Botão de download de currículo
     # st.sidebar.markdown("---")
     # Link para o currículo
-    st.sidebar.markdown("[jaimecardozo.junior@gmail.com](mailto:jaimecardozo.junior@gmail.com)")
-    st.sidebar.markdown(
-        """
-        <div style="text-align: center;">
-    <a href="https://drive.google.com/uc?export=download&id=1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy"
-       download="Curriculum Jaime 2025.pdf"
-       rel="noopener noreferrer"
-       style="text-decoration: none">
-        <span class="sidebar-icon">📄</span>
-        <span>Baixar Currículo</span>
-    </a>
-</div>
-        """, 
-        unsafe_allow_html=True
-    )
+#     st.sidebar.markdown("[jaimecardozo.junior@gmail.com](mailto:jaimecardozo.junior@gmail.com)")
+#     st.sidebar.markdown(
+#         """
+#         <div style="text-align: center;">
+#     <a href="https://drive.google.com/uc?export=download&id=1oPOnUUacOaZhyPFcShkCtNKaAA_27Ysy"
+#        download="Curriculum Jaime 2025.pdf"
+#        rel="noopener noreferrer"
+#        style="text-decoration: none">
+#         <span class="sidebar-icon">📄</span>
+#         <span>Baixar Currículo</span>
+#     </a>
+# </div>
+#         """, 
+#         unsafe_allow_html=True
+#     )
     
