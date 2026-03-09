@@ -14,7 +14,7 @@ def sobre_mim():
                     Especializo-me na criação de soluções robustas e automatizadas (RPA),\n 
                     incluindo sistemas de bots para jogos,\n 
                     ferramentas de extração de dados (web scraping) e desenvolvimento web.\n
-                    Minha transição de carreira para a tecnologia, iniciada em 2021,\n 
+                    Minha transição de carreira para a tecnologia, iniciada em 2020,\n 
                     foi impulsionada por uma paixão genuína pela área.\n 
                     Sou um profissional autodidata, com grande capacidade de aprendizado e focado em aplicar conhecimentos\n 
                     teóricos em desafios práticos e resultados concretos.
