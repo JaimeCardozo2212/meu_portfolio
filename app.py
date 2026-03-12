@@ -52,8 +52,8 @@ with st.container():
         st.write(
             """
                 **Desenvolvedor backend Python**\n
-                **Conhecimetos framework** : *Django, Streamlit*\n
-                **Demais tecnologias** : *Selenium , Requests , Scrapy , Pandas , PyAutoGUI , LangChain , PyODBC*
+                **Conhecimetos framework** : *Django, Streamlit, FastAPI, Flask*\n
+                **Demais tecnologias** : *Selenium , Requests , Scrapy , Pandas , PyAutoGUI , LangChain , PyODBC, NumPy, scikit-learn*
 
             """
         )
