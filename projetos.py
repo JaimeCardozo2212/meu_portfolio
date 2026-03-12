@@ -6,6 +6,31 @@ def meus_projetos():
         st.markdown("<a id='projetos'></a>", unsafe_allow_html=True) # Âncora
         st.markdown("## Meus Projetos")
         # st.write("---")
+
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.markdown("### Sistema IA local")
+            st.image(r"img/IA_local.png", use_container_width=True)
+            st.markdown("""**Tecnologias:** • Python + Streamlit (interface)
+            • LangChain (orquestração)
+            • Ollama (modelos locais)
+            • ChromaDB (banco vetorial)
+            • Modelos: Llama3.2, Gemma2, Qwen (você escolhe!)""")
+            st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
+            
+        with col2:
+            st.write("---")
+            st.write('Criei meu portfolio com Streamlit')
+            with st.expander("🔍 Clique para detalhes", expanded=False):
+                st.write(
+                    """
+                    Criei meu portfolio com Streamlit, é um framework Python de código aberto A ferramenta é conhecida pela sua simplicidade, 
+                    possibilitando o desenvolvimento de dashboards e interfaces complexas com poucas linhas de código, 
+                    sem a necessidade de conhecimentos aprofundados em desenvolvimento web
+                    """
+                )
+                
+        st.write("---")
         
         # --- Projeto 1 ---
         col1, col2 = st.columns([1, 2])
