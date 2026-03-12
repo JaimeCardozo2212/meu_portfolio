@@ -11,11 +11,11 @@ def meus_projetos():
         with col1:
             st.markdown("### Sistema IA local")
             st.image(r"img/IA_local.png", use_container_width=True)
-            st.markdown("""**Tecnologias:** 
-            • Python + Streamlit (interface)
-            • LangChain (orquestração)
-            • Ollama (modelos locais)
-            • ChromaDB (banco vetorial)
+            st.markdown("**Tecnologias:**")
+            st.write("""• Python + Streamlit (interface)\n
+            • LangChain (orquestração)\n
+            • Ollama (modelos locais)\n
+            • ChromaDB (banco vetorial)\n
             • Modelos: Llama3.2, Gemma2, Qwen (você escolhe!)""")
             # st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
