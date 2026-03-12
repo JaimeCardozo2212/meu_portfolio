@@ -12,11 +12,13 @@ def meus_projetos():
             st.markdown("### Sistema IA local")
             st.image(r"img/IA_local.png", use_container_width=True)
             st.markdown("**Tecnologias:**")
-            st.write("""• Python + Streamlit (interface)\n
+            st.write("""
+            • Python + Streamlit (interface)\n
             • LangChain (orquestração)\n
             • Ollama (modelos locais)\n
             • ChromaDB (banco vetorial)\n
-            • Modelos: Llama3.2, Gemma2, Qwen (você escolhe!)""")
+            • Modelos: Llama3.2, Gemma2, Qwen (você escolhe!)
+            """)
             # st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
         with col2:
@@ -41,12 +43,12 @@ def meus_projetos():
         with col1:
             st.markdown("### Este Portfólio")
             st.image(r"img/meu_portfolio.png", use_container_width=True)
-            st.markdown("**Tecnologias:** Python, CSS")
+            st.markdown("**Tecnologias:** Python, Streamlit, CSS")
             st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
         with col2:
             st.write("---")
-            st.write('Criei meu portfolio com Streamlit')
+            st.write('Este portfólio')
             with st.expander("🔍 Clique para detalhes", expanded=False):
                 st.write(
                     """
