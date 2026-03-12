@@ -11,22 +11,25 @@ def meus_projetos():
         with col1:
             st.markdown("### Sistema IA local")
             st.image(r"img/IA_local.png", use_container_width=True)
-            st.markdown("""**Tecnologias:** • Python + Streamlit (interface)
-            • LangChain (orquestração)
-            • Ollama (modelos locais)
-            • ChromaDB (banco vetorial)
+            st.markdown("""**Tecnologias:**\n • Python + Streamlit (interface)\n
+            • LangChain (orquestração)\n
+            • Ollama (modelos locais)\n
+            • ChromaDB (banco vetorial)\n
             • Modelos: Llama3.2, Gemma2, Qwen (você escolhe!)""")
-            st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
+            # st.write("Link:", "[GitHub](https://github.com/JaimeCardozo2212/meu_portfolio.git)")
             
         with col2:
             st.write("---")
-            st.write('Criei meu portfolio com Streamlit')
+            st.write('Sistema de IA local para processamento de linguagem natural e análise de dados')
             with st.expander("🔍 Clique para detalhes", expanded=False):
                 st.write(
                     """
-                    Criei meu portfolio com Streamlit, é um framework Python de código aberto A ferramenta é conhecida pela sua simplicidade, 
-                    possibilitando o desenvolvimento de dashboards e interfaces complexas com poucas linhas de código, 
-                    sem a necessidade de conhecimentos aprofundados em desenvolvimento web
+                    Devido ao alto risco de vazamento de dados ao utilizar inteligência artificial baseada na nuvem, 
+                    decidi desenvolver uma aplicação que executa IA localmente. 
+                    Dessa forma, elimino qualquer possibilidade de exposição de informações 
+                    sensíveis e ainda posso ajustar os parâmetros do modelo para torná-lo mais preciso. 
+                    A solução é útil tanto para o resumo de PDFs quanto para a análise de dados 
+                    e até mesmo para auxiliar em tarefas de programação.
                     """
                 )
                 
