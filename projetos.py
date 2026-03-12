@@ -11,7 +11,8 @@ def meus_projetos():
         with col1:
             st.markdown("### Sistema IA local")
             st.image(r"img/IA_local.png", use_container_width=True)
-            st.markdown("""**Tecnologias:**\n • Python + Streamlit (interface)\n
+            st.markdown("""**Tecnologias:**\n 
+            • Python + Streamlit (interface)\n
             • LangChain (orquestração)\n
             • Ollama (modelos locais)\n
             • ChromaDB (banco vetorial)\n
